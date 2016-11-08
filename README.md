@@ -118,3 +118,42 @@
 
 
 ![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture6.JPG?raw=true)
+
+
+```
+Code
+```
+```
+using System;
+
+namespace Lab6
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            try
+            {
+                string Name,LastName,GA;
+                Console.Write("Enter Name : ");
+                Name = Console.ReadLine();
+                Console.Write("Enter LastName : ");
+                LastName = Console.ReadLine();
+                Console.Write("Enter ID : ");
+                int ID = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter GPA : ");
+                GA = Console.ReadLine();
+                float GPA = float.Parse(GA);
+                Console.WriteLine("Name = " + Name);
+                Console.WriteLine("LastName = " + LastName);
+                Console.WriteLine("ID = " + ID);
+                Console.WriteLine("GPA :{0:F2}", GPA);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error : " + e.ToString());
+            }
+        }
+    }
+}
+```
