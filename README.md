@@ -1,3 +1,4 @@
+#นายปฏิมากร บุญเปลี่ยน 57030190
 #ใบงานที่ 6
 ##เรื่อง การใช้งานคำสั่ง Console.Read() และ Console.ReadLine()
 ##วัตถุประสงค์
@@ -18,28 +19,25 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic1.png)
 
   2.2).	โปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+  
+  
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture1.JPG?raw=true)
+
+
 
 ###คำถาม 6.1 ถ้าพิมพ์ตัวอักษรจำนวนหลายๆ ตัวแล้วกด Enter จะได้ผลอย่างไร ทำไมจึงเป็นเช่นนั้น
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+จะขึ้นเฉพาะตัวแรก เพราะตัวแปร char เก็บได้ 1 ตัว
+
+
 
 ###คำถาม 6.2 ในบรรทัดที่ 11 ซึ่งมีโปรแกรมเป็น ```ch = (char)Console.Read();```  นั้น ถ้าตัด ```(char)``` ออกไป จะเกิดอะไรขึ้น ให้อธิบายประกอบ
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture2.JPG?raw=true)
+
+
 
 3).	โปรแกรมสำหรับรับ string จากคีย์บอร์ด
  
@@ -48,12 +46,15 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic2.png)
  
  3.2).	โปรแกรม และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+จะขึ้นตัวอักษรทุกตัวที่เราพิมพ์
+
+
+
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture3.JPG?raw=true)
+
+
 
 4).	โปรแกรมสำหรับรับค่าตัวเลข เนื่องจากคำสั่ง ```Read()``` และ ```ReadLine()``` จะรับเฉพาะตัวอักษร การรับตัวเลข เราต้องใช้เมธอด TryParse() มาช่วยแปลงค่า
 
@@ -62,20 +63,19 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic3.png)
 
 4.2).	รัน โปรแกรม โดยป้อนตัวเลขใดๆ และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+จะขึ้น ให้เราสามารถป้อน Input เข้าไปได้
+
+
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture4.JPG?raw=true)
+
 
 ###คำถาม 6.3 ถ้าเราป้อนตัวอักษรลงไปแทนที่ตัวเลข จะเกิดอะไรขึ้น มีวิธีการป้องกันหรือแก้ไขอย่างไร
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+จะเกิดโปรแกรม Error และ ค้างทันที
+
 
 5).	โปรแกรมสำหรับรับค่าตัวเลข แต่ในบางกรณีที่ผู้ใช้ป้อนตัวอักษร จะทำให้เกิด error และทำให้โปรแกรม hang ได้ จึงต้องมีการป้องกันโดยใช้ประโยค ```try{…} catch{…}```  (ประโยค ```try{…} catch{…}``` นี้จะศึกษารายละเอียดภายหลัง)
 
@@ -84,20 +84,25 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-06/blob/master/imgs/pic4.png)
 
   5.2).	รัน โปรแกรม โดยป้อนตัวเลขใดๆ และบันทึกผลที่ได้
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+มี Input ให้เราป้อนได้ 2 ตัว จากนั้นจะนำ มาแสดงผลต่อกัน
+
+
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture5.1.JPG?raw=true)
+
+
+พิมพ์ตัวอักษรจะเกิดการฟ้อง Error แต่โปรแกรมจะไม่ค้าง
+
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture5.2.JPG?raw=true)
+
 
 ###คำถาม 6.4 ถ้าเราป้อนตัวอักษรลงไปแทนที่ตัวเลข จะเกิดอะไรขึ้น เหมือนหรือต่างจากโปรแกรมก่อนหน้านี้อย่างไร
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
-<hr>
+
+
+โปรแกรมจะไม่สามารถทำงานต่อได้และมีข้อความฟ้อง Error ต่างจากโปรแกรมก่อนหน้า จะค้างไปเลย
+
+
 
 ##แบบฝึกหัด ให้เขียน code ในการรับค่าอินพุตต่อไปนี้และแสดงออกหน้าจอให้ถูกต้อง
 ``` Name :  (ป้อนชื่อของนักศึกษา). ```
@@ -107,3 +112,9 @@
 ``` ID : (ป้อนรหัสนักศึกษา).```
 
 ``` GPA : (ป้อนเกรดเฉลี่ยนักศึกษา โดยมีทศนิยมสองหลัก).```
+
+
+ ผลจากการรันโปรแกรม
+
+
+![](https://github.com/patimakorn54/LAB-06/blob/master/imgs/Capture6.JPG?raw=true)
